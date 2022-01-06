@@ -30,7 +30,10 @@ p{
 }
 .header-text{
     padding-top: 10%;
-    padding-left: 10%;
+    padding-left: 10%
+}
+.header-text p{
+    padding-top: 20px;
 }
 .title-text-div{
     border-left: 7px solid #ffbb2a;
@@ -53,7 +56,6 @@ p{
     padding: 20px 30px;
     border-radius: 5px;
     font-size: 20px;
-    font-weight: 700;
 }
 .banner-btn a:hover{
     color: white;
@@ -80,9 +82,9 @@ p{
 }
 
 .detailbox{
-    padding-left:15%;
-    padding-right:15%;
-    padding-bottom:8%;
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom:6%;
 }
 .detailbox a{
     text-decoration: none;
@@ -95,13 +97,13 @@ p{
     
 }
 .box-mis{
-    background-color: #e0fbff;
+    background-color: #ebfbfd;
 }
 .box-vis{
-    background-color: #fdf3dc;
+    background-color: #fffaef;
 }
 .box-goal{
-    background-color: #ffdfdb
+    background-color: #ffedea
 }
 .box-sdw{
     height: 650px;
@@ -110,9 +112,12 @@ p{
     padding: 3%;
     border-radius: 10px;
 }
+
+/* Devlop without limit section */
+
 .dev-limit-sec{
-    padding-top: 5%;
-    padding-bottom: 6%;
+    padding-top: 4%;
+    padding-bottom: 5%;
 
 }
 .dev-limit-sec img{
@@ -122,6 +127,62 @@ p{
     border-radius: 20px;
 }
 .dev-limit-sec p{
-    padding-right:30%;
+    padding-right:20%;
 }
 
+/* Community section */
+
+.community-sec{
+    padding-top: 4%;
+    padding-bottom: 5%;
+    background-color: #fffdfd;
+
+}
+.community-sec img{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 4%;
+    border-radius: 20px;
+}
+.com-padding{
+    padding-left:10%;
+}
+
+/* Devlop without limit section */
+
+.freemask-sec{
+    padding-top: 4%;
+    padding-bottom: 5%;
+
+}
+.freemask-sec img{
+    width: 50%;
+    margin-left: 20%;
+    border-radius: 20px;
+}
+.freemask-sec p{
+    padding-right:20%;
+}
+
+.freemask-text{
+    padding-top: 60px;
+}
+
+/* Footer Section */
+
+.logo-copyright{
+    width: 100%;
+    color: #ffffff;
+    background-color:#000000 ;
+    text-align: center;
+    height: 250px;
+}
+
+.logo-copyright h3{
+    font-weight: lighter;
+}
+.logo-copyright img{
+    padding-top: 25px;
+    margin: 0 auto;
+    width: 8%;
+}
