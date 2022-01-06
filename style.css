@@ -14,6 +14,7 @@ p{
     text-align: justify;
     font-size: 22px;
     line-height: 1.5;
+    padding-bottom: 20px;
 }
 .span-color{
     color:#3aa2f1;
@@ -46,18 +47,26 @@ p{
 
 .banner-btn a{
     text-decoration: none;
-    font-weight:600;
     letter-spacing:2px;
-    color: white;
-    background-color: #3aa2f1;
-    padding: 15px 30px;
+    color: #ffffff;
+    background-color:#ffbb2a;
+    padding: 20px 30px;
     border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
 }
 .banner-btn a:hover{
     color: white;
-    background-color: #ffbb2a;
+    background-color: #3ba3f1;
+}
+
+/* Mission Section Start */
+
+.mission-sec{
+    background-color: #fffdfd;
 }
 .mission-sec h1{
+    padding-top: 50px;
     text-align: center;
     margin-bottom: 100px;
 }
@@ -73,22 +82,46 @@ p{
 .detailbox{
     padding-left:15%;
     padding-right:15%;
-    padding-bottom:10%;
+    padding-bottom:8%;
 }
 .detailbox a{
     text-decoration: none;
     color: #3aa2f1;
-    font-size: 18px;
+    font-size: 22px;
+
 }
 .detailbox a:hover{
     color: black;
     
 }
+.box-mis{
+    background-color: #e0fbff;
+}
+.box-vis{
+    background-color: #fdf3dc;
+}
+.box-goal{
+    background-color: #ffdfdb
+}
 .box-sdw{
-    height: 600px;
-    background-color: #ffffff;
+    height: 650px;
     box-shadow: 5px 10px 10px #b4b4b4;
     margin-right: 2%;
     padding: 3%;
     border-radius: 10px;
 }
+.dev-limit-sec{
+    padding-top: 5%;
+    padding-bottom: 6%;
+
+}
+.dev-limit-sec img{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 4%;
+    border-radius: 20px;
+}
+.dev-limit-sec p{
+    padding-right:30%;
+}
+
