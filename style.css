@@ -101,9 +101,11 @@ p{
 }
 .box-vis{
     background-color: #fffaef;
+    margin-left: 20px;
 }
 .box-goal{
-    background-color: #ffedea
+    background-color: #ffedea;
+    margin-left: 20px;
 }
 .box-sdw{
     height: 500px;
@@ -175,7 +177,7 @@ p{
     color: #ffffff;
     background-color:#000000 ;
     text-align: center;
-    height: 250px;
+    height: 200px;
 }
 
 .logo-copyright h3{
@@ -184,5 +186,5 @@ p{
 .logo-copyright img{
     padding-top: 25px;
     margin: 0 auto;
-    width: 8%;
+    width: 5%;
 }
