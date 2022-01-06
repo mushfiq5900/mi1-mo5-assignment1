@@ -28,6 +28,12 @@ p{
 .flexible-display{
     display: flex;
 }
+.header-sec{
+    background-image: url(images/Backgroundimage2.png);
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
 .header-text{
     padding-top: 10%;
     padding-left: 10%
@@ -65,7 +71,10 @@ p{
 /* Mission Section Start */
 
 .mission-sec{
-    background-color: #fffdfd;
+    /* background-color: #fffdfd; */
+    background-image: url(images/Backgroundimage2.png);
+    background-repeat: no-repeat;
+
 }
 .mission-sec h1{
     padding-top: 50px;
@@ -120,6 +129,9 @@ p{
 .dev-limit-sec{
     padding-top: 4%;
     padding-bottom: 5%;
+    background-image: url(images/Backgroundimage2.png);
+    background-repeat: no-repeat;
+
 
 }
 .dev-limit-sec img{
@@ -137,7 +149,9 @@ p{
 .community-sec{
     padding-top: 4%;
     padding-bottom: 5%;
-    background-color: #fffdfd;
+    background-image: url(images/Backgroundimage2.png);
+    background-repeat: no-repeat;
+
 
 }
 .community-sec img{
@@ -155,6 +169,8 @@ p{
 .freemask-sec{
     padding-top: 4%;
     padding-bottom: 5%;
+    background-image: url(images/Backgroundimage2.png);
+    background-repeat: no-repeat;
 
 }
 .freemask-sec img{
